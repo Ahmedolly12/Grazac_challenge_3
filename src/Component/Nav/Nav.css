@@ -1,0 +1,82 @@
+
+/* ...............Desktop Screen............... */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left:5em;
+    padding-right:5em;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5em;
+    width: 100%;
+    font-weight: 500;
+}
+li.links a{
+    font-size: 18px;
+}
+li.ham a{
+    font-size: 30px;
+    display: none;
+}
+span{
+    color: #40BFFF;
+}
+
+h3{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+#menu-btn, .none, ul.myNav{
+    display:none;
+}
+/* .....................Mobile Screen............ */
+@media screen and (max-width: 768px){
+    
+    li.links a{
+        display: none;
+    }
+    ul{
+        margin: 0;
+    }
+    h3{
+        left: 60px;
+        top: -10px;
+    }
+    li.ham a{
+    font-size: 30px;
+    display: block;
+}
+.nav-container{
+    padding-left:1em;
+
+}
+#menu-btn{
+    display: block;
+}
+ul.myNav {
+  display: block;
+   position: absolute;
+  list-style: none;
+  right:0em;
+  top: 4em;
+    background:#BCDDFE;
+    text-align: center;
+  
+  width:  300px;
+  height:70vh;
+  color: black;
+  transition: .5s;
+   display:flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+    z-index: 1;
+
+}
+}

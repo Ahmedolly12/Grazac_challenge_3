@@ -213,7 +213,7 @@ button.twitter{
     padding:4em;
     background-color: #FAFAFB;
     margin-top:2em;
-    width:90%;
+    width:80%;
 } 
 p.content{
     width: 60%;
@@ -251,17 +251,22 @@ button.hot{
     top:100px;
 }
 @media screen and (max-width: 768px){
-    
+    html, body{
+        overflow-x: hidden;
+    }
     .product-container, .related-container{
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        padding-left:3em;
+        padding:1em;
+    }
+    .nike{
+        padding-left:1em;
     }
     .product-desc{
         justify-content: center;
         align-items: center;
-        padding:10px;
+        /* padding:10px; */
     }
     .tab-container{
         display:none;

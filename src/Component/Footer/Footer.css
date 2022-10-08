@@ -39,6 +39,9 @@ p.headings{
     font-weight: 400;
     padding-bottom: 10px;
 }
+p.sub-text{
+    font-weight: 100;
+}
 a{
     text-decoration: none;
     color: #000;

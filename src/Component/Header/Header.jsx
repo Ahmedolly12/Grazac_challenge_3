@@ -1,8 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import profile from "../../images/profile.png";
-import cart from "../../images/cart.png";
-import search from "../../images/search.png";
+import cart11 from "../../images/cart11.png";
 
 const Header = () => {
   return (
@@ -23,11 +22,10 @@ const Header = () => {
                 </select>
             </div>
             <div className="profile-right">
-                <p className='top'><img src={profile}/> My Profile</p>
-                <img src={cart}/>
+                <p className='profile'><img src={profile}alt=""/>My Profile</p>
+                <img className='cart' src={cart11}alt=""/>
                 <p className='top'>Items</p>
-                <p></p>
-                <p className="search">$0.00<img className="search"src={search}/></p>
+                <p className="search">$0.00<input type='search'/></p>
             </div>
         </div>
     </div>

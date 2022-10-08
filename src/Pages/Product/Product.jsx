@@ -19,6 +19,7 @@ import nike8 from "../../images/nike8.PNG"
 import whitefacebook from "../../images/whitefacebook.png"
 import whitetwitter from "../../images/whitetwitter.png"
 import Shoecard from "../../Component/Shoecard/Shoecard"
+import Tab from "../../Component/TabsComponent/Tab"
  
 
 
@@ -222,33 +223,7 @@ const [quantity, setQuantity]= useState(1);
         </div>
         </div>
       <div className="tab-container">
-              <nav>
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><span>Product Infomation</span></button>
-    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Review <small className='zero'>0</small></button>
-    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Another Tab</button>
-  </div>
-</nav>
-<div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-    <p className="content">air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched 
-    the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites.</p>
-    <p className="content">air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched 
-    the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites.</p>
-    <p className="content">air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched 
-    the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites.</p>
-  </div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-    <p className="content">air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched 
-    the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites.</p>
-    <p className="content">air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched 
-    the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites.</p>
-  </div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-    <p className="content">air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched 
-    the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites.</p>
-  </div>
-</div>
+        <Tab/>
       </div>
     <div className='related'>
       <h2> RELATED PRODUCTS</h2>

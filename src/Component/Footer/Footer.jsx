@@ -20,11 +20,11 @@ const Footer = () => {
                     <div className="icon">
                         <img className='logo'src= {ecomm}/> 
                     </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.</p>
+                        <p className='sub-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.</p>
                 </div>
                 <div className="followus">
                     <p className="heading">Follow Us</p>
-                    <p>Since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    <p className='sub-text'>Since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
                     <div className="social">
                         <img src={facebook}/>
                         <img  className="twitter"src={twitter}/>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
                 <div className="contactus">
                     <p className="heading"> Contact Us</p>
-                    <p>E-Comm , 4578 Marmora Road, Glasgow D04 89GR</p>
+                    <p className='sub-text'>E-Comm , 4578 Marmora Road, Glasgow D04 89GR</p>
                 </div>
             </div>
             <div className="footer-info">

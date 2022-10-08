@@ -19,12 +19,6 @@
 .icon{
     cursor:pointer;
 }
-h6{
-    padding-left: 2.5em;
-    font-size: 18px;
-    position: absolute;
-    top: 10.5em;  
-}
 .ecomm p, .followus p, .contactus p{
     width:70%;
     line-height: 40px;
@@ -70,11 +64,12 @@ hr{
 .card-details p{
     color:#C1C8CE;
 }
-.card{
+.cardd{
     display: flex;
     gap: 1em;
     justify-content: space-evenly;
     cursor: pointer;
+
 }
 img.vis{
     position:absolute;

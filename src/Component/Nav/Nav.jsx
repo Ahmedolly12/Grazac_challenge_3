@@ -11,7 +11,8 @@ const Nav = () => {
   return (
     <div>
         <div className="nav-container">
-            <div className="logo"><img className='logo'src= {logo}/> <h3>E-Comm </h3></div>
+            <div className="logo"><img className='logo'src= {logo}/> 
+            <h3>E-Comm </h3></div>
             <div className="product">
                 <ul>
                     <li className="links"><a href=""><span>HOME</span></a></li>
@@ -32,6 +33,9 @@ const Nav = () => {
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+        </div>
+        <div className="nike-container">
+            <p><span>Home</span> / <span>Hotdeal</span> / Nike Airmax 270 React</p>
         </div>
     </div>
   )

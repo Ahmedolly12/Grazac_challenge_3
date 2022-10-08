@@ -7,6 +7,7 @@ import Western from "../../images/Western-union.png"
 import master from "../../images/mastercard.png"
 import paypal from  "../../images/Paypal.png"
 import visa from  "../../images/visa.png"
+import ecomm from  "../../images/ecomm.PNG"
 
 
 
@@ -17,7 +18,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="ecomm">
                     <div className="icon">
-                        <img className='logo'src= {logo}/> <h6>E-Comm </h6>
+                        <img className='logo'src= {ecomm}/> 
                     </div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.</p>
                 </div>
@@ -61,14 +62,11 @@ const Footer = () => {
             <hr />
             <div className="card-details">
                 <p>© 2018 Ecommerce theme by www.bisenbaev.com</p>
-                <div className="card">
+                <div className="cardd">
                     <img src={Western}/>
                     <img src={master}/>
                     <img src={paypal}/>
                     <img src={visa}/>
-                     
-                    
-                    
                 </div>
             </div>
         </div>

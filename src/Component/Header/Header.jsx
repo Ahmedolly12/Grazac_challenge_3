@@ -23,9 +23,9 @@ const Header = () => {
                 </select>
             </div>
             <div className="profile-right">
-                <p><img src={profile}/> My Profile</p>
+                <p className='top'><img src={profile}/> My Profile</p>
                 <img src={cart}/>
-                <p>Items</p>
+                <p className='top'>Items</p>
                 <p></p>
                 <p className="search">$0.00<img className="search"src={search}/></p>
             </div>

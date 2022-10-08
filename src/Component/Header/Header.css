@@ -30,6 +30,9 @@ select{
  img.search{
     padding-left: 10px;
  }
+ p.top{
+    font-weight:100;
+ }
  @media screen and (max-width: 768px){
     .header-container{
         display: none;
